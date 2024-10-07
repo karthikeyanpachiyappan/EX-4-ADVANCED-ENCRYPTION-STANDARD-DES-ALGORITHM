@@ -1,4 +1,4 @@
-# EX-8-ADVANCED-ENCRYPTION-STANDARD-DES-ALGORITHM
+# EX-7-ADVANCED-ENCRYPTION-STANDARD-DES-ALGORITHM
 
 ## Aim:
 
@@ -26,9 +26,10 @@ void xor_encrypt_decrypt(char *input, char *key) {
 }
 
 int main() {
+    char hed[] = "DES";
     char url[] = "Karthi";
     char key[] = "secretkey"; // Simple key for XOR encryption
-
+    printf("DES Encryption and Decryption\n",hed);
     printf("Original URL: %s\n", url);
 
     // Encrypt the URL
@@ -43,7 +44,7 @@ int main() {
 }
 ```
 ## OUTPUT:
-![Screenshot 2024-10-07 102813](https://github.com/user-attachments/assets/c1171bfa-40f4-4155-a7eb-4de5a6b186ca)
+![Screenshot 2024-10-07 104206](https://github.com/user-attachments/assets/2da77f47-f436-4d7b-836e-ccaaeac547d7)
 
 ## RESULT: 
 Thus , to use Advanced Encryption Standard (AES) Algorithm for a practical application like URL Encryption is done successfully.
